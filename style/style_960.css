@@ -1,0 +1,119 @@
+@media screen and (max-width:960px){
+  
+    .topheader{
+        max-width: 960px;
+}
+
+    header .topheader .nav{
+        width: 70%;
+}
+                                    /* header*/
+                       /*slider*/
+    .slider{
+        display: flex;
+        position: relative;
+        flex-basis: 100%;
+        max-width: 960px;
+        min-height: 400px;
+        margin: 0 auto;
+        box-shadow: inset 100px 1000px 100px 10px rgba(0,0,0,0.2);
+}
+
+    #arrow_left,#arrow_right{
+        display: block;
+        position: relative;
+        margin: auto;
+}
+
+    .slider #arrow_left{
+        padding-left: 0px;
+}
+
+    .slider #arrow_right{
+        padding-left: 0px;
+}
+
+    .conteiner{
+        display: flex;
+        position: relative;
+        padding-left: 0px;
+        padding-right: 10px;
+}
+
+    .column{
+        padding-top: 85px;
+        width: 60%;
+        max-width: 700px;
+}
+
+    .column h2{
+        font-size: 48px;
+        font-weight: bold;
+        padding-bottom: 5px;
+}
+
+    .column h3{
+        font-size: 24px;
+        color: #edbfff;
+        padding-bottom: 5px;
+}
+
+    .column p{
+        font-size: 16px;
+        letter-spacing: 1px;
+        font-weight: 100;
+}
+
+    .column2{
+        padding: 70px 0px 0 0px;
+        display: block;
+        position: relative;
+        width: 40%;
+}
+    
+    .column2 img:first-child{
+        left: 100px;
+}
+
+   .column2 .arrow img:first-child{
+        display: block;
+        position: absolute;
+        top: -20px;
+        left: 60px;
+}
+
+    .slide_circle{
+        padding: 95px 0 58px 0;
+        display: flex;
+        justify-content: center;
+}
+
+    .slide_circle img:last-child{
+        display: flex;
+        position: relative;
+        left: -62px;
+}
+
+                                    /*slider*/
+                            /*main*/
+    .about{
+        margin: 0 auto;
+        max-width: 960px;
+}
+    .aoc{
+        display: inline-flex;
+        width: 20%;
+        max-height: 75px;
+        overflow: hidden;
+        flex-direction: column;
+        padding: 80px 0px 75px 50px;
+}
+    
+                                    /*main*/
+    
+                            /* aside*/
+                                    
+    
+    
+                                    /* aside*/
+}
